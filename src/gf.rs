@@ -42,6 +42,10 @@ impl Gf256 {
 
         return self.exp[usize::from(res_pos)];
     }
+
+    pub fn value_at_pos(&self, pos: usize) -> u8 {
+        return self.exp[pos];
+    }
 }
 
 #[cfg(test)]
