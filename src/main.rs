@@ -3,6 +3,7 @@ use crate::bits::BitBuffer;
 mod bits;
 mod encode;
 mod gf;
+mod reed_solomon;
 
 /** QR CONSTANTS */
 const QR_W_H: usize = 33;
